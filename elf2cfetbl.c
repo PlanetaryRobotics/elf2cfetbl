@@ -41,6 +41,7 @@
 #include "ELF_Structures.h"
 #include "cfe_tbl_filedef.h"
 #include "elf2cfetbl_version.h"
+#pragma GCC diagnostic ignored "-Wshadow"
 
 #define MAX_SECTION_HDR_NAME_LEN (128)
 #define TBL_DEF_SYMBOL_NAME      "CFE_TBL_FileDef"
